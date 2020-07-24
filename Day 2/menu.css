@@ -1,0 +1,11 @@
+#zero {
+    width: 60%;
+    background-color: blue;
+    margin: auto;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-transform: uppercase;
+}
