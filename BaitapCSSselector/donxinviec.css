@@ -1,0 +1,19 @@
+.zero3 {
+    text-align: center;
+    color: white;
+}
+.zero2 {
+    color: white;
+}
+.zero1 {
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+}
+#zero4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#zero5 {
+    margin-right: 80px;
+}
