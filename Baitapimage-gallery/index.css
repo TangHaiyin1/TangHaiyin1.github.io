@@ -1,0 +1,39 @@
+#site-nav {
+    width: 60%;
+    background-color: pink;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 3px 10px;
+}
+.page-width {
+    height: 400px;
+    margin-top: -40px;
+}
+.logo {
+    position: relative;
+    left: 44%;
+    top: 70%;
+}
+.item {
+    text-align: center;
+    border: 1px solid pink;
+    border-radius: 5px;
+    margin: 20px 10px 45px;
+    box-sizing: border-box;
+    float: left;
+    width: 350px;
+    height: 400px;
+}
+.view:hover {
+    transform: scale(1.5);
+}
+
+
+
+
