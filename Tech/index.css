@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    margin-left: 15px;
+}
+.menu {
+    background-color: #34465c;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 60px;
+}
+.list-item a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.menu ul li {
+    display: inline;
+    position: relative;
+}
+.main .list-item .menu-item {
+    margin: 0 10px 0 10px;
+}
+.menu ul li a:hover {
+    color: grey;
+}
+.menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 200px;
+}
+
+.sub-menu li a {
+    display: block;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    text-transform: none;
+    color: black;
+    padding: 12px;
+}
+.sub-menu {
+    background-color: transparent;
+    padding-top: 25px;
+}
+.menu ul li:hover .sub-menu {
+    display: block;
+}
+.bread a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.body {
+    padding-top: 50px;
+}
+.size {
+    padding: 15px;
+    font-size: 10px;
+}
+.text {
+    padding: 30px;
+    padding-right: 600px;
+    font-size: 20px;
+}
+.text .badge {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.text a {
+    text-decoration: none;
+}
+.bread {
+    padding-left: 25px;
+}
+.badge {
+    background-color: #e5e5e5;
+    color: gray;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: .15em .4em;
+}
+.zero {
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 15px;
+}
