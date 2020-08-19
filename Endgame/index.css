@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.zero {
+    height: 350px;
+    width: 100%;
+    margin-top: -40px;
+}
+nav {
+    background-color: gray;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+.zero1 .content {
+    background-color: white;
+    width: 750px;
+    margin: 20px 0 50px 150px;
+    padding: 20px;
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2)
+}
+.zero1 .content h3 {
+    width: 700px;
+    padding: 20px 0 20px 0;
+}
+.zero1 .content .image {
+    margin-left: 50px;
+}
+.zero1 h2 {
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.zero1 aside .text {
+    font-size: 20px;
+    width: 270px;
+    height: 480px;
+}
+aside {
+    width: 250px;
+    background-color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 380px;
+    left: 950px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+}
+.profile {
+    height: 500px;
+    width: 700px;
+    margin: 50px 50px;
+    background-color: white;
+}
+.profile .data {
+    padding: 20px 30px;
+}
+.item {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 40px 30px;
+    box-sizing: border-box;
+    float: left;
+    height: 350px;
+    background-color: lightblue;
+}
+.container .item1 {
+    text-align: center;
+    border: 1px solid black;
+    height: 850px;
+    margin: 50px 50px 50px 50px;
+}
+.container .item1 .item {
+    margin-left: 80px;
+}
+.item a {
+    text-decoration: none;
+}
+.bread {
+    padding: 50px 0 0 50px;
+}
+.bread a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.arrow {
+    padding: 15px;
+    font-size: 10px;
+}
+.item a img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    overflow: hidden;
+}
